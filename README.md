@@ -2,6 +2,12 @@
 <p align="center"><em>What people should see before you land a helicopter upside down. </em></p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/mvenge-mvenge"><img src="https://img.shields.io/npm/v/mvenge-mvenge.svg" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/mvenge-mvenge"><img src="https://img.shields.io/npm/dm/mvenge-mvenge.svg" alt="Downloads"></a>
+  <a href="https://github.com/username/mvenge-mvenge/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/mvenge-mvenge.svg" alt="License"></a>
+</p>
+
+<p align="center">
   <img src="./Pugachev_Cobra.svg" alt="Mvenge-Mvenge Logo" width="100%" style="max-width: 600px;"/>
 </p>
 
@@ -155,6 +161,30 @@ Check the [examples](./examples) directory for more usage examples.
 
 This component uses WebGL and modern JavaScript features. It works in all modern browsers that support WebGL.
 
+## Local Development
+
+If you want to test this package with your local application, you can use npm linking:
+
+```bash
+# In the mvenge-mvenge package directory
+npm link
+
+# In your application directory
+npm link mvenge-mvenge
+```
+
+Or with yarn:
+
+```bash
+# In the mvenge-mvenge package directory
+yarn link
+
+# In your application directory
+yarn link mvenge-mvenge
+```
+
+This creates a symbolic link from your global node_modules folder to this package, allowing you to test local changes immediately in your application.
+
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
