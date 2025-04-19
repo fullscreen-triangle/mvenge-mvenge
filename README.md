@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="./Pugachev_Cobra.svg" alt="Mvenge-Mvenge Logo" width="100%" style="max-width: 600px;"/>
+  <img src="./Pugachev.svg" alt="Mvenge-Mvenge Logo" width="100%" style="max-width: 600px;"/>
 </p>
 
 A customizable, reusable loading animation component for React applications built with Three.js and React Three Fiber. Create stunning 3D loading visualizations with glitch effects and audio feedback that dynamically adapts to any loading scenario.
